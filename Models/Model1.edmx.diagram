@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="16ac20aa7cc84612bb9a8f662b061ffa" Name="Diagram1">
+        <EntityTypeShape EntityType="KisanMitraModel.Address" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KisanMitraModel.Cart" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KisanMitraModel.OrderDetail" Width="1.5" PointX="8.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KisanMitraModel.Order" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KisanMitraModel.Payment" Width="1.5" PointX="0.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KisanMitraModel.ProductCategory" Width="1.5" PointX="1.5" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KisanMitraModel.Product" Width="1.5" PointX="6" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KisanMitraModel.ProductSubCategory" Width="1.5" PointX="3.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KisanMitraModel.User" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="KisanMitraModel.FK__Orders__addressI__2CF2ADDF" ManuallyRouted="false" />
+        <AssociationConnector Association="KisanMitraModel.FK__Cart__productId__0697FACD" ManuallyRouted="false" />
+        <AssociationConnector Association="KisanMitraModel.FK__OrderDeta__order__2A164134" ManuallyRouted="false" />
+        <AssociationConnector Association="KisanMitraModel.FK__OrderDeta__produ__2B0A656D" ManuallyRouted="false" />
+        <AssociationConnector Association="KisanMitraModel.FK__Orders__paymentI__2DE6D218" ManuallyRouted="false" />
+        <AssociationConnector Association="KisanMitraModel.FK__Orders__userId__2BFE89A6" ManuallyRouted="false" />
+        <AssociationConnector Association="KisanMitraModel.FK__ProductSu__prodC__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="KisanMitraModel.FK__Products__prodSu__1BC821DD" ManuallyRouted="false" />
+        <AssociationConnector Association="KisanMitraModel.FK__Products__userId__1CBC4616" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
